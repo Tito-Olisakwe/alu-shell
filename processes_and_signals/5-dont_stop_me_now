@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# stops on the kill command 
+pgrep -f 4-to_infinity_and_beyond | xargs kill
